@@ -19,3 +19,6 @@ x = 1 # int
 y = 2.5 # float point number
 name = 'Bob' # str, can have single or double quotes
 is_cool = True # bool, must be capitalized, otherwise would be looked at as a variable
+
+# Multiple assignment
+x, y, name, is_cool = (1, 2.5, 'Bob', True) # Does the same thing as lines 18 - 21 but more compact
