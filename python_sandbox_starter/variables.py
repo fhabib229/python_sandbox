@@ -22,3 +22,20 @@ is_cool = True # bool, must be capitalized, otherwise would be looked at as a va
 
 # Multiple assignment
 x, y, name, is_cool = (1, 2.5, 'Bob', True) # Does the same thing as lines 18 - 21 but more compact
+
+# Basic Math
+a = x + y
+
+# Casting
+x = str(x)
+y = int(y)
+# Changing y back to a float
+z = float(y)
+
+print('Hello World!')
+
+print(x, y, name, is_cool, a)
+
+print(type(y), y) # y will print out 2 instead of 2.5 since this is now an int (whole number)
+
+print(type(z), z) # now it's 2.0
