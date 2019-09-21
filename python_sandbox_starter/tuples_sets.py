@@ -12,7 +12,7 @@ fruits2 = ('Apples', ) # now it's a tuple
 # print(fruits2, type(fruits2)) # Because there is no trailing comma on line 9, the type is classified as a string
 
 # Retrieving a single value
-print(fruits[1]) # like lists or arrays, tuples are zero-index-based
+# print(fruits[1]) # like lists or arrays, tuples are zero-index-based
 
 # Remember, you can't change the values
 # fruits[0] = 'Pears'
@@ -33,3 +33,18 @@ len(fruits)
 
 # Create a set
 fruits_set = {'Apples', 'Oranges', 'Mango'}
+print('Apples' in fruits_set)
+
+# Add to set
+fruits_set.add('Blueberries')
+
+# Remove from set
+fruits_set.remove('Blueberries')
+
+# Clear set
+fruits_set.clear()
+
+# Delete
+del fruits_set
+# deleting is the same as never defining the set
+print(fruits_set)
