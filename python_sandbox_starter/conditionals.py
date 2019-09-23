@@ -1,13 +1,13 @@
 # If/ Else conditions are used to decide to do something based on something being true or false
 
-x = 10
-y = 20
+x = 33
+y = 32
 
 # Comparison Operators (==, !=, >, <, >=, <=) - Used to compare values
 
 # Simple if
-if x > y:
-  print(f'{x} is greater than {y}')
+# if x > y:
+#   print(f'{x} is greater than {y}')
 
 # If/else
 # if x > y:
@@ -46,7 +46,23 @@ if x > y:
 
 # Membership Operators (not, not in) - Membership operators are used to test if a sequence is presented in an object
 
+numbers = [1,2,3,4,5]
 
+# in
+# if x in numbers:
+#   print(x in numbers)
+
+# # not in
+# if x not in numbers:
+#   print(x not in numbers)
 
 
 # Identity Operators (is, is not) - Compare the objects, not if they are equal, but if they are actually the same object, with the same memory location:
+
+# is
+if x is y:
+  print(x is y) # if not true, the console won't print anything
+
+# is not
+if x is not y:
+  print(x is not y)
