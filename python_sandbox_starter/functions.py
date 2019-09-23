@@ -5,13 +5,17 @@ def sayHello(name='Sam'): # we can also set a default like in this line, then we
   print(f'Hello {name}')
 
 # sayHello()
-def getSum(num1, num2):
-  total = num1 + num2
-  return total
+# def getSum(num1, num2):
+#   total = num1 + num2
+#   return total
 
-num = getSum(3,4)
-print(num)
+# num = getSum(3,4)
+# print(num)
 
 # A lambda function is a small anonymous function.
-# A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
+# A lambda function can take any number of arguments, but can only have one expression.
+# Very similar to JS arrow functions
 
+getSum = lambda num1, num2 : num1 + num2 # here the colon is like the arrow in JS
+
+print(getSum(10, 3))
